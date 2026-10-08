@@ -1,0 +1,52 @@
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Variables de entorno y secretos (NUNCA SUBIR)
+.env
+.env.*
+*.env
+
+# Archivos descargados y datos sensibles (Excels, reportes de clientes, etc.)
+Documentos/
+*.xlsx
+*.xls
+*.csv
+*.tsv
+
+# Bytecode y cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Pruebas y cobertura
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache
+
+# Logs y bases de datos locales
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
